@@ -1,6 +1,6 @@
 <?php
 
-namespace MO\DB;
+namespace MOOM\DB;
 
 class DB
 {

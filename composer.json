@@ -1,11 +1,11 @@
 {
-    "name": "mo/mo-db",
+    "name": "moom/db",
     "description": "DB package.",
     "keywords": [
-        "mo",
-        "mo-db"
+        "MOOM",
+        "MOOM-DB"
     ],
-    "homepage": "https://github.com/mo/mo-db",
+    "homepage": "https://github.com/moustafaomar/DB",
     "license": "The Unlicense",
     "type": "library",
     "authors": [
@@ -23,12 +23,12 @@
     },
     "autoload": {
         "psr-4": {
-            "MO\\MODB\\": "src"
+            "MOOM\\DB\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "MO\\MODB\\Tests\\": "tests"
+            "MOOM\\DB\\Tests\\": "tests"
         }
     },
     "scripts": {
