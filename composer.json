@@ -1,5 +1,6 @@
 {
     "name": "moom/db",
+    "minimum-stability": "dev",
     "description": "DB package.",
     "keywords": [
         "MOOM",
