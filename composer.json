@@ -29,7 +29,8 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "MOOM\\Tests\\": "tests"
+            "MOOM\\Tests\\": "tests",
+            "MOOM\\": "src"
         }
     },
     "scripts": {

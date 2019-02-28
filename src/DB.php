@@ -1,7 +1,7 @@
 <?php
 
 namespace MOOM;
-
+use PDO;
 class DB
 {
     //Database host
