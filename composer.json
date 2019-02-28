@@ -24,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "MOOM\\DB\\": "src"
+            "MOOM\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "MOOM\\DB\\Tests\\": "tests"
+            "MOOM\\Tests\\": "tests"
         }
     },
     "scripts": {
