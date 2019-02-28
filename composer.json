@@ -6,7 +6,7 @@
         "MOOM-DB"
     ],
     "homepage": "https://github.com/moustafaomar/DB",
-    "license": "The Unlicense",
+    "license": "MIT",
     "type": "library",
     "authors": [
         {
