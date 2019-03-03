@@ -12,7 +12,7 @@ This package enables you to perform CRUD actions on DB without typing queries.
 You can install the package via composer:
 
 ```bash
-composer require moom/db
+composer require moom/db --prefer-dist
 ```
 
 ## Usage
