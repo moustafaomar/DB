@@ -1,9 +1,10 @@
 # Php DB Helper Library
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/moom/db.svg?style=flat-square)](https://packagist.org/packages/moom/db)
-[![Build Status](https://img.shields.io/travis/moom/db/master.svg?style=flat-square)](https://travis-ci.org/moom/db)
-[![Quality Score](https://img.shields.io/scrutinizer/g/moom/db.svg?style=flat-square)](https://scrutinizer-ci.com/g/moom/db)
+[![Latest Version on Packagist](https://img.shields.io/badge/Version-1.0.0-blue.svg)](https://packagist.org/packages/moom/db)
+[![Build Status](https://scrutinizer-ci.com/g/moustafaomar/DB/badges/build.png?b=master)](https://scrutinizer-ci.com/g/moustafaomar/DB/badges/build.png?b=master)
+[![Quality Score](https://scrutinizer-ci.com/g/moustafaomar/DB/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/moom/db)
 [![Total Downloads](https://img.shields.io/packagist/dt/moom/db.svg?style=flat-square)](https://packagist.org/packages/moom/db)
+[![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 
 This package enables you to perform CRUD actions on DB without typing queries.
 
