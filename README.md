@@ -1,30 +1,32 @@
-# Very short description of the package
+# Php DB Helper Library
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/mo/mo-db.svg?style=flat-square)](https://packagist.org/packages/mo/mo-db)
-[![Build Status](https://img.shields.io/travis/mo/mo-db/master.svg?style=flat-square)](https://travis-ci.org/mo/mo-db)
-[![Quality Score](https://img.shields.io/scrutinizer/g/mo/mo-db.svg?style=flat-square)](https://scrutinizer-ci.com/g/mo/mo-db)
-[![Total Downloads](https://img.shields.io/packagist/dt/mo/mo-db.svg?style=flat-square)](https://packagist.org/packages/mo/mo-db)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/moom/db.svg?style=flat-square)](https://packagist.org/packages/moom/db)
+[![Build Status](https://img.shields.io/travis/moom/db/master.svg?style=flat-square)](https://travis-ci.org/moom/db)
+[![Quality Score](https://img.shields.io/scrutinizer/g/moom/db.svg?style=flat-square)](https://scrutinizer-ci.com/g/moom/db)
+[![Total Downloads](https://img.shields.io/packagist/dt/moom/db.svg?style=flat-square)](https://packagist.org/packages/moom/db)
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
+This package enables you to perform CRUD actions on DB without typing queries.
 
 ## Installation
 
 You can install the package via composer:
 
 ```bash
-composer require mo/mo-db
+composer require moom/db
 ```
 
 ## Usage
 
 ``` php
-// Usage description here
-```
+<?php
+require_once 'vendor/autoload.php';
 
-### Testing
+use MOOM\DB;
 
-``` bash
-composer test
+$data = DB::fetchAll('users',[]);
+
+
+var_dump($data);
 ```
 
 ### Changelog
@@ -46,8 +48,4 @@ If you discover any security related issues, please email moustafaomar200@gmail.
 
 ## License
 
-The The Unlicense. Please see [License File](LICENSE.md) for more information.
-
-## PHP Package Boilerplate
-
-This package was generated using the [PHP Package Boilerplate](https://laravelpackageboilerplate.com).
+The DB package is open-source software licensed under the MIT license.
