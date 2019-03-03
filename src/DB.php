@@ -46,7 +46,7 @@ class DB
     /**
      * @param $tbl_name
      * @param $params
-     * @return mixed
+     * @return \PDOStatement
      */
 
     private static function select($tbl_name, $params)
@@ -210,7 +210,7 @@ class DB
     /**
      * @param $tbl_name
      * @param array $params
-     * @return bool
+     * @return boolean|null
      */
     public static function Create($tbl_name, $params = array())
     {
@@ -271,7 +271,7 @@ class DB
      * @param $tbl_name
      * @param $array
      * @param $where
-     * @return bool
+     * @return boolean|null
      */
     public static function Update($tbl_name, $array, $where)
     {
@@ -299,7 +299,7 @@ class DB
     }
 
     /**
-     * @param $stmt
+     * @param \PDOStatement $stmt
      * @param $bind
      */
     private static function bindParam($stmt, $bind)
