@@ -2,6 +2,7 @@
 
 namespace MOOM;
 use PDO;
+use PDOException;
 class DB
 {
     //Database host

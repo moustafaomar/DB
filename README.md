@@ -2,7 +2,7 @@
 
 [![Latest Version on Packagist](https://img.shields.io/badge/Version-1.0.0-blue.svg)](https://packagist.org/packages/moom/db)
 [![Build Status](https://scrutinizer-ci.com/g/moustafaomar/DB/badges/build.png?b=master)](https://scrutinizer-ci.com/g/moustafaomar/DB/badges/build.png?b=master)
-[![Quality Score](https://scrutinizer-ci.com/g/moustafaomar/DB/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/moom/db)
+[![Quality Score](https://scrutinizer-ci.com/g/moustafaomar/DB/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/moustafaomar/DB)
 [![Total Downloads](https://img.shields.io/packagist/dt/moom/db.svg?style=flat-square)](https://packagist.org/packages/moom/db)
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 
