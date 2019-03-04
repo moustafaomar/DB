@@ -88,6 +88,7 @@ class DB
             $final = $stmt->fetch();
             return $final;
         } catch (PDOException $e) {
+            //Your catch exception goes here.
         }
     }
 
